@@ -1,0 +1,15 @@
+terms=int(input("Number of terms"))
+a1=0
+a2=1
+count=0
+if terms<=0:
+    print("Please enter a positive value")
+elif terms==1:
+    print("a1")
+else:
+    while count<terms:
+        print(a1)
+        a=a1+a2
+        a1=a2
+        a2=a
+        count+=1
